@@ -1,0 +1,65 @@
+.pCard {
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  border-radius: 18px;
+  padding: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  transition: transform 150ms ease, border-color 150ms ease;
+}
+
+.pCard:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 61, 127, 0.40);
+}
+
+.pTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.pTitle {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+
+.pPill {
+  font-size: 12px;
+  color: rgba(255,255,255,0.82);
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.25);
+  max-width: 260px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.pDesc {
+  margin: 10px 0 12px;
+  color: rgba(255,255,255,0.74);
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+.pLinks {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.pLink {
+  font-size: 13px;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.22);
+  color: rgba(255,255,255,0.9);
+}
+
+.pLink:hover {
+  border-color: rgba(255, 61, 127, 0.40);
+}
